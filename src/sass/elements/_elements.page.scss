@@ -15,9 +15,9 @@
  */
 
 html {
-  background-color: color('white'); /* [1] */
+  background-color: color('primary'); /* [1] */
   color: color('black-off'); /* [2] */
-  font-family: $font-secondary, serif; /* [3] */
+  font-family: $font-primary, serif; /* [3] */
 }
 
 h1,
@@ -26,5 +26,19 @@ h3,
 h4,
 h5,
 h6 {
+  color: color('black-off');
   font-family: $font-primary, serif;
+  margin: initial;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
 }
