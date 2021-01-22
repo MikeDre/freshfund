@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #POSITION
+   ========================================================================== */
+
+/**
+ * The position utilities file contains positioning helper classes;
+ *
+ * This includes `position` attribute, as well as horizontal centering.
+ */
+
+.u-absolute {
+  position: absolute;
+}
+
+.u-relative {
+  position: relative;
+}
+
+.u-float-right {
+  float: right;
+}
+
+.u-float-left {
+  float: right;
+}

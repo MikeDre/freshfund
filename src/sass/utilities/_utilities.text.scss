@@ -1,0 +1,79 @@
+/* ==========================================================================
+   #TEXT
+   ========================================================================== */
+
+/**
+ * The text utilities file contains many helper classes for text;
+ *
+ * This includes `text-transform`, `font-` styles, alignment and spacing,
+ * and the text style and responsive text style class generation, using the
+ * global-text-map from _settings.text.scss.
+ */
+
+/* stylelint-disable max-nesting-depth */
+
+// Style helpers
+
+.u-capitalize {
+  text-transform: capitalize;
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-italic {
+  font-style: italic;
+}
+
+// Weight helpers
+
+.u-bold {
+  font-weight: 700;
+}
+
+.u-title {
+  font-family: $font-primary;
+}
+
+.u-content {
+  font-family: $font-primary;
+}
+
+// Alignment helpers
+
+.u-text {
+  &--center {
+    text-align: center;
+  }
+
+  &--space {
+    letter-spacing: 2px;
+
+    &-huge {
+      letter-spacing: 4px;
+    }
+
+    &-large {
+      letter-spacing: 3px;
+    }
+
+    &-small {
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.u-reset-line-height {
+  line-height: 1;
+}
+
+// Font Selection
+
+.u-font-primary {
+  font-family: $font-primary;
+}
+
+.u-font-secondary {
+  font-family: $font-secondary;
+}

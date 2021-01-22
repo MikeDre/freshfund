@@ -1,0 +1,17 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/**
+ * Global Color Map
+ *
+ * Build color map of all theme colors.
+ * e.g. color('primary');
+ */
+
+@function color($_color) {
+  @if not map-has-key($theme-colors, $_color) {
+    @warn 'No color found for `#{$_color}` in $theme-colors - color returned will be null.';
+  }
+  @return map-get($theme-colors, $_color);
+}

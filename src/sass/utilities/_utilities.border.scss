@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #Border
+   ========================================================================== */
+
+/**
+ * Border helpers
+ */
+
+.u-no-border {
+  border: 0 solid #000;
+}
+
+.u-border-radius-small {
+  border-radius: 5px;
+}
+
+.u-border-radius-medium {
+  border-radius: 10px;
+}
+
+.u-border-radius-large {
+  border-radius: 50px;
+}
+
+.u-border-radius-huge {
+  border-radius: 360px;
+}

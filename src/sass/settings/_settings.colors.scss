@@ -1,0 +1,40 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/*
+*  BASE COLORS
+*/
+
+// Orange
+$orange: #ff8a3d;
+
+// Green
+$green: #04c1ac;
+
+// Purple
+$purple: #9e2986;
+
+// Black
+$black: #000000;
+$black--off: #1d1d1b;
+
+// White
+$white: #ffffff;
+$white--off: #eeeeee;
+
+/*
+*  COLORS THEME MAP
+*/
+
+$theme-colors: (
+  'primary': $orange,
+  'secondary': $green,
+  'tertiary': $purple,
+  'highlight': $purple,
+  'black': $black,
+  'black-off': $black--off,
+  'white': $white,
+  'white-off': $white--off,
+  'text-body': $black--off,
+);

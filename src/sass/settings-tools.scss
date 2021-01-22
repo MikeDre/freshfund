@@ -1,0 +1,9 @@
+// SETTINGS
+@import 'settings/settings.fonts';
+@import 'settings/settings.responsive';
+@import 'settings/settings.layout';
+@import 'settings/settings.colors';
+
+// TOOLS
+@import '../../node_modules/sass-mq/mq';
+@import 'tools/tools.colors';
