@@ -2,6 +2,16 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-stylelint',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: './data/',
+      },
+    },
     {
       resolve: 'gatsby-plugin-prettier-eslint',
       options: {

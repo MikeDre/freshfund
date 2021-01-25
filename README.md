@@ -28,7 +28,6 @@
 
     Microsite should now be running at http://localhost:8000!
 
-
 4.  **Resources for working with Gatsby**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)

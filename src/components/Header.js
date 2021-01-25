@@ -4,7 +4,7 @@ import Logo from './Logo/Logo';
 import Navigation from './Navigation/Navigation';
 
 const navLinks = {
-  'Our Winners': '/our-winners',
+  'Our Winners': '/winners',
 };
 
 const header = () => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 
 // eslint-disable-next-line
 import '/node_modules/uikit/dist/js/uikit.min.js';

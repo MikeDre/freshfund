@@ -3,11 +3,11 @@ export const GetVimeoIDFromUrl = (url) => {
     .then((response) => response.json())
     .then((data) => {
       // eslint-disable-next-line
-            console.log(data.video_id);
+      console.log(`Vimeo ID: ${data.video_id}`);
     })
     .catch((error) => {
       // eslint-disable-next-line
-            console.error('Problem connecting to Vimeo API:', error);
+      console.error('Problem connecting to Vimeo API:', error);
     });
 };
 
