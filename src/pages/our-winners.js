@@ -2,24 +2,12 @@ import * as React from 'react';
 
 import Layout from '../components/Layout';
 import TextBlock from '../components/TextBlock/TextBlock';
-import VideoHero from '../components/Video/VideoHero';
 
 import '../sass/main.scss';
-
-import CurlArrow from '../images/curl-arrow.svg';
 
 export default function Home() {
   return (
     <Layout>
-      <div className="u-overflow-hidden--off">
-        <div className="uk-container">
-          <div className="uk-margin-large-bottom">
-            <VideoHero
-              vimeoUrl="https://vimeo.com/480734452"
-            />
-          </div>
-        </div>
-      </div>
       <div className="uk-container">
         <div className="uk-grid" uk-grid>
           <div className="uk-width-2-3@m">
@@ -30,14 +18,6 @@ export default function Home() {
               buttonText="See our winners"
               buttonLink="/winners"
             />
-          </div>
-          <div className="uk-width-1-3@m uk-text-center">
-            <div>
-              <img src={CurlArrow} alt="Curly arrow pointing to video" />
-            </div>
-            <div className="uk-margin-top">
-              <strong>Take a closer look</strong>
-            </div>
           </div>
         </div>
       </div>

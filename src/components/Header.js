@@ -3,12 +3,17 @@ import SocialIcons from './SocialIcons/SocialIcons';
 import Logo from './Logo/Logo';
 import Navigation from './Navigation/Navigation';
 
+const navLinks = {
+  'Our Winners': '/our-winners',
+};
+
 const header = () => (
-  <div className="uk-margin-top uk-margin-large-bottom">
+  <div className="uk-margin-medium-top uk-margin-large-bottom">
     <div className="uk-container">
-      <div className="uk-grid uk-child-width-1-3" uk-grid>
+      <div className="uk-grid uk-grid-small uk-child-width-1-3" uk-grid>
         <div>
           <SocialIcons
+            darkMode
             instagram="https://instagram.com/freshfund"
             twitter="https://twitter.com/freshfund"
             linkedin="https://linkedin.com/freshfund"
@@ -18,7 +23,9 @@ const header = () => (
           <Logo />
         </div>
         <div>
-          <Navigation />
+          <Navigation
+            navLinks={navLinks}
+          />
         </div>
       </div>
     </div>

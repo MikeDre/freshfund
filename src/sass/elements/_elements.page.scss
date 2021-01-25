@@ -18,6 +18,7 @@ html {
   background-color: color('primary'); /* [1] */
   color: color('black-off'); /* [2] */
   font-family: $font-primary, serif; /* [3] */
+  overflow-x: hidden;
 }
 
 h1,

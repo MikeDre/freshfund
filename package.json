@@ -18,8 +18,14 @@
     "csslint": "yarn stylelint src/sass"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-babel": "^5.3.1",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.10.0",
     "gatsby-plugin-catch-links": "^2.9.0",

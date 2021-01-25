@@ -1,10 +1,21 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
 
-const Navigation = () => (
-  <div className="uk-text-right">
-    <Link to="/winners">Our Winners</Link>
-  </div>
-);
+class Navigation extends React.Component {
+  render() {
+    const navItems = Object.keys(this.props.navLinks).map((key, index) => <Link to={index} class="u-color-black">{key}</Link>);
+
+    return (
+      <div className="uk-text-right">
+        {navItems}
+      </div>
+    );
+  }
+}
+
+Navigation.propTypes = {
+  navLinks: PropTypes.shape({}).isRequired,
+};
 
 export default Navigation;
