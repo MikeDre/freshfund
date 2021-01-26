@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="uk-container uk-margin-large-top">
+      <div className="uk-container uk-margin-large-top uk-margin-large-bottom">
         <div className="uk-grid" uk-grid>
           <div className="uk-width-2-3@m">
             <TextBlock

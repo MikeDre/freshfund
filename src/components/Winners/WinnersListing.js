@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import './winners-listing.scss';
 
@@ -8,13 +9,17 @@ class WinnersListing extends React.Component {
       <div key={winner.name} className="winners-listing__item uk-flex uk-flex-middle uk-margin-large-bottom">
         <div className="uk-grid uk-child-width-1-2@m" uk-grid>
           <div>
-            <img src={winner.image} alt={`Illustration of ${winner.name}`} />
+            <Link to={winner.slug} className="winners-listing__link">
+              <img src={winner.image} alt={`Illustration of ${winner.name}`} />
+            </Link>
           </div>
           <div className="uk-flex uk-flex-middle">
-            <div className="uk-text-left@m uk-text-center">
-              <h4 className="winner-listing__company u-color-tertiary">{winner.company}</h4>
-              <h3 className="winner-listing__name ">{winner.name}</h3>
-            </div>
+            <Link to={winner.slug} className="winners-listing__link">
+              <div className="uk-text-left@m uk-text-center">
+                <h4 className="winner-listing__company u-color-tertiary">{winner.company}</h4>
+                <h3 className="winner-listing__name ">{winner.name}</h3>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

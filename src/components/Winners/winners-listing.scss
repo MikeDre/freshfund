@@ -16,3 +16,9 @@
 .winner-listing__company {
   font-size: 18px;
 }
+
+a.winners-listing__link {
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -21,36 +21,43 @@ const ourWinners = [
     name: 'Anisa Sloan',
     company: 'Souvinear',
     image: AnisaIllustration,
+    slug: '/winners/anisa-sloan',
   },
   {
     name: 'Leah Hernandez',
     company: 'Young Authors Publishing',
     image: LeahIllustration,
+    slug: '/winners/leah-hernandez',
   },
   {
     name: 'Sara Berkai',
     company: 'Ambessa Play',
     image: SaraIllustration,
+    slug: '/winners/sara-berkai',
   },
   {
     name: 'Kendall Finlay',
     company: 'Ohm',
     image: KendallIllustration,
+    slug: '/winners/kendall-finlay',
   },
   {
     name: 'Dr Hani Hassan',
     company: 'Ohm',
     image: HaniIllustration,
+    slug: '/winners/dr-hani-hassan',
   },
   {
     name: 'Jaynika McGregor',
     company: 'Graceful Graves',
     image: JaynikaIllustration,
+    slug: '/winners/jaynika-mcgregor',
   },
   {
     name: 'SaVonne Anderson',
     company: 'Aya Paper Co',
     image: SaVonneIllustration,
+    slug: '/winners/savonne-anderson',
   },
 ];
 
