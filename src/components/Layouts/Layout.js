@@ -20,7 +20,7 @@ class Layout extends React.Component {
 }
 
 Layout.propTypes = {
-  children: PropTypes.shape({}).isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

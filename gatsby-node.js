@@ -12,6 +12,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
   `);
 
   if (data.errors) {
+    // eslint-disable-next-line no-console
     console.log('Error retrieving data', data.errors);
     return;
   }

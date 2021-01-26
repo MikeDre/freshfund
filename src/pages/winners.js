@@ -65,7 +65,7 @@ export default function OurWinners() {
   return (
     <Layout>
       <div className="uk-container uk-margin-large-bottom">
-        <div className="uk-grid" uk-grid>
+        <div className="uk-grid" data-uk-grid>
           <div className="uk-width-2-3@m">
             <TextBlock
               subheading="Fresh Fund"
@@ -77,7 +77,7 @@ export default function OurWinners() {
       </div>
       <WinnersLayout>
         <div className="uk-container">
-          <div className="uk-grid uk-child-width-1-2@m" uk-grid>
+          <div className="uk-grid uk-child-width-1-2@m" data-uk-grid>
             <WinnersListing
               winners={ourWinners}
             />

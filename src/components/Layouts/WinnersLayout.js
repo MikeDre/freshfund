@@ -17,7 +17,7 @@ class WinnersLayout extends React.Component {
 }
 
 WinnersLayout.propTypes = {
-  children: PropTypes.shape({}).isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default WinnersLayout;

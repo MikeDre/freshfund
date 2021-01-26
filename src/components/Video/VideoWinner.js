@@ -1,26 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { GetVimeoIDFromUrl } from '../../helpers';
 
 import './video.scss';
+import './wistia.scss';
 
 class VideoWinner extends React.Component {
   render() {
-    const vimeoID = GetVimeoIDFromUrl(this.props.vimeoUrl);
     return (
       <div className="video-winner">
-        <iframe title="Video Hero" src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="100%" height="700" frameBorder="0" allowFullScreen uk-responsive />
+        <div className="wistia_responsive_padding">
+          <div className="wistia_responsive_wrapper">
+            <iframe src={`https://fast.wistia.net/embed/iframe/${this.props.wistiaID}?videoFoam=true`} title="Fresh Fund Compilation - (with captions) Video" allow="autoplay; fullscreen" allowtransparency="true" frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowFullScreen msallowfullscreen width="100%" height="100%" />
+          </div>
+        </div>
       </div>
     );
   }
 }
 
 VideoWinner.defaultProps = {
-  vimeoUrl: '480734452',
+  wistiaID: 'mncpoovoet',
 };
 
 VideoWinner.propTypes = {
-  vimeoUrl: PropTypes.string,
+  wistiaID: PropTypes.string,
 };
 
 export default VideoWinner;

@@ -15,6 +15,11 @@ class TextBlock extends React.Component {
     };
   }
 
+  /*
+  * @summary: dangerouslySetInnerHTML required here to output Winner's biography
+  * @todo: Currently pulling from static file (winners.json), replace with headless CMS data
+  */
+  /* eslint react/no-danger: 0 */
   render() {
     return (
       <div>

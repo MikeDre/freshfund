@@ -9,7 +9,7 @@
     "sector": "Toys",
     "typeOfBusiness": "Products",
     "basedIn": "Oxford, UK",
-    "wistiaVideoID": "7zx4qqm9wq"
+    "wistiaVideoID": "w1q93rhfu9"
   },
   {
     "slug": "kendall-finlay",
@@ -21,6 +21,54 @@
     "sector": "Wellness",
     "typeOfBusiness": "Tech",
     "basedIn": "Austin, US",
-    "wistiaVideoID": "7zx4qqm9wq"
+    "wistiaVideoID": "rah2aji3kn"
+  },
+  {
+    "slug": "anisa-sloan",
+    "name": "Anisa Sloan",
+    "company": "Souvinear",
+    "companyWebsite": "souvinear.io",
+    "bio": "<p>Anisa...</p>",
+    "image": "Courier_portrait_Anisa",
+    "sector": "Music",
+    "typeOfBusiness": "Tech",
+    "basedIn": "Philadelphia, US",
+    "wistiaVideoID": "mko2kud970"
+  },
+  {
+    "slug": "jaynika-mcgregor",
+    "name": "Jaynika McGregor",
+    "company": "Graceful Graves",
+    "companyWebsite": "gracefulgraves.co.uk",
+    "bio": "<p>Jaynika...</p>",
+    "image": "Courier_portrait_Jay",
+    "sector": "Cleaning",
+    "typeOfBusiness": "Service",
+    "basedIn": "Kent, UK",
+    "wistiaVideoID": "xw2ngjg05m"
+  },
+  {
+    "slug": "leah-hernandez",
+    "name": "Leah Hernandez",
+    "company": "Young Authors Publishing",
+    "companyWebsite": "youngauthorspublishing.org",
+    "bio": "<p>Leah...</p>",
+    "image": "Courier_portrait_Leah",
+    "sector": "Publishing",
+    "typeOfBusiness": "Products",
+    "basedIn": "Atlanta, UK",
+    "wistiaVideoID": "kmrinpovfx"
+  },
+  {
+    "slug": "savonne-anderson",
+    "name": "SaVonne Anderson",
+    "company": "Aya Paper Co",
+    "companyWebsite": "ayapaper.co",
+    "bio": "<p>SaVonne...</p>",
+    "image": "Courier_portrait_SaVonne",
+    "sector": "Stationery",
+    "typeOfBusiness": "Products",
+    "basedIn": "Newark, UK",
+    "wistiaVideoID": "d13wo75ht4"
   }
 ]

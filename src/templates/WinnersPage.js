@@ -19,6 +19,7 @@ export const query = graphql`
       typeOfBusiness
       basedIn
       image
+      wistiaVideoID
     }
     allFile (filter: { extension: { eq: "png" } }) {
       edges {
@@ -49,7 +50,7 @@ const WinnersPage = ({ data }) => {
         <div className="uk-container">
           <div className="uk-margin-large-bottom">
             <VideoWinner
-              vimeoUrl="https://vimeo.com/480734452"
+              wistiaID={winner.wistiaVideoID}
               caption="The following films were all made at a safe distance or by winners themselves to ensure safety during the Covid-19 pandemic"
             />
           </div>
@@ -57,7 +58,7 @@ const WinnersPage = ({ data }) => {
       </div>
       <WinnersLayout>
         <div className="uk-container uk-margin-large-top">
-          <div className="uk-grid" uk-grid>
+          <div className="uk-grid" data-uk-grid>
             <div className="uk-width-3-5@m">
               <div className="uk-margin-large-top uk-margin-large-bottom">
                 <div className="uk-hidden@m">
@@ -99,6 +100,7 @@ WinnersPage.propTypes = {
       typeOfBusiness: PropTypes.string.isRequired,
       basedIn: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
+      wistiaVideoID: PropTypes.string.isRequired,
     }).isRequired,
     allFile: PropTypes.shape({
       edges: PropTypes.arrayOf(PropTypes.shape({}).isRequired).isRequired,

@@ -10,7 +10,7 @@ const navLinks = {
 const header = () => (
   <div className="uk-margin-medium-top uk-margin-large-bottom">
     <div className="uk-container">
-      <div className="uk-grid uk-grid-small uk-child-width-1-3" uk-grid>
+      <div className="uk-grid uk-grid-small uk-child-width-1-3" data-uk-grid>
         <div>
           <SocialIcons
             darkMode
