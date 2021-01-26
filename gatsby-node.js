@@ -24,6 +24,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
       component: winnersTemplate,
       context: {
         slug: edge.node.slug,
+        image: edge.node.image,
       },
     });
   });

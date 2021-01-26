@@ -38,6 +38,7 @@ WinnersListing.propTypes = {
     name: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
   })).isRequired,
 };
 

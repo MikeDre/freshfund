@@ -4,11 +4,23 @@
     "name": "Sara Berkai",
     "company": "Ambessa Play",
     "companyWebsite": "ambessaplay.com",
-    "bio": "<p>Named after the word..</p>",
-    "image": "sara.jpg",
+    "bio": "<p>Named after the word 'lion' in Eritrean and Ethiopian languages ('you would say \"Ambessa!\" to a child as \"congratulations\" or \"well done\", Sara explains), the company donates a free kit or workshop to a displaced child out of school for every one purchased.</p><p>Founded by Sara Berkai, Ambessa Play creates science, technology, engineering and mathematics (STEM) toy kits and workshops. 'My parents and I fled a war in East Africa and moved to London,' Sara says. 'I ended up working in tech and would volunteer an educational role on the side. I saw how children responded and was curious as to what that looked like back home. Last May, I went to Eritrea and delivered STEM workshops, teaching 300 children how to build laptops. The feedback was insane: 10- and 11-year-olds saying \"I'm going to become an engineer now\" just from one experience with hands-on learning.'</p>",
+    "image": "Courier_portrait_Sara",
     "sector": "Toys",
     "typeOfBusiness": "Products",
     "basedIn": "Oxford, UK",
+    "wistiaVideoID": "7zx4qqm9wq"
+  },
+  {
+    "slug": "kendall-finlay",
+    "name": "Kendall Finlay",
+    "company": "Ohm",
+    "companyWebsite": "ohmwithus.com",
+    "bio": "<p>A first-generation American born and raised in Miami, Kendall Finlay says mental health wasn’t discussed in his household growing up. After moving from a diverse low-income school to a mainly white private school, he struggled to fit in. ‘I didn’t go to therapy because it wasn’t accessible and was taboo. Instead, I pushed my wellness off for another day. I needed Ohm and know others can use a product like Ohm now.’</p><p>Ohm is a digital wellness company that centralises mental health resources and curates personalised wellness experiences for its users. ‘Many people today are struggling with mental health, says Kendall, who recalls the stress brought on when looking for resources to address his own health. ‘I didn’t know where to start, I didn’t know what was legitimate,’ he says. ‘And to make matters worse, all the resources were scattered behind various platforms and paywalls. I was lost. That’s how I came up with the idea for Ohm. It’s a platform that’s finally making wellness easy, organised and affordable, all in a single place.’</p>",
+    "image": "Courier_portrait_Kendall",
+    "sector": "Wellness",
+    "typeOfBusiness": "Tech",
+    "basedIn": "Austin, US",
     "wistiaVideoID": "7zx4qqm9wq"
   }
 ]
