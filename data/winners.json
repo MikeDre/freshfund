@@ -56,7 +56,7 @@
     "image": "Courier_portrait_Leah",
     "sector": "Publishing",
     "typeOfBusiness": "Products",
-    "basedIn": "Atlanta, UK",
+    "basedIn": "Atlanta, US",
     "wistiaVideoID": "kmrinpovfx"
   },
   {
@@ -68,7 +68,19 @@
     "image": "Courier_portrait_SaVonne",
     "sector": "Stationery",
     "typeOfBusiness": "Products",
-    "basedIn": "Newark, UK",
+    "basedIn": "Newark, US",
     "wistiaVideoID": "d13wo75ht4"
+  },
+  {
+    "slug": "dr-hani-hassan",
+    "name": "Dr Hani Hassan",
+    "company": "Hue by Dr Hani",
+    "companyWebsite": "youtube.com/c/VoteForHani",
+    "bio": "<p>Dr Hani Hassan is a London-based medical doctor and influencer who uses her popular YouTube channel to teach others how to care for their skin. Her brand was born out of personal need – after suffering skin issues from acne to hyperpigmentation and failing to find products that worked, Hani put her science background to good use, poring over papers on scientific databases and researching which combinations of ingredients were most suitable for sensitive skin of colour. The result is her brand Hue.</p><p>According to Dr Hani, the science is unambiguous – darker skin responds differently to triggers like UV and inflammation. But the reality, she says, is that the skincare industry today is still very ‘white normative’. ‘Most skincare still focuses on the specific skin needs of those with white skin – and so commercially available skincare selections represent a very narrow worldview and experience,’ she says. ‘Consumer experiences have historically lacked authenticity and have not been based on the skin experiences of all people.’ As a result, Dr Hani is launching Hue, a scientifically-driven skincare brand creating products specifically formulated for skin of colour.</p>",
+    "image": "Courier_portrait_Hani",
+    "sector": "Skincare",
+    "typeOfBusiness": "Products",
+    "basedIn": "London, UK",
+    "wistiaVideoID": ""
   }
 ]
