@@ -9,7 +9,8 @@
   font-family: 'Platform';
   font-style: normal;
   font-weight: 500;
-  src: url('../../fonts/') format('woff2'), url('../../fonts/Platform-Medium.woff') format('woff');
+  src: url('../fonts/Platform-Medium.woff2') format('woff2'),
+    url('../fonts/Platform-Medium.woff') format('woff');
 }
 
 @font-face {
@@ -17,8 +18,8 @@
   font-family: 'Platform';
   font-style: normal;
   font-weight: bold;
-  src: url('../../fonts/Platform-Bold.woff2') format('woff2'),
-    url('../../fonts/Platform-Bold.woff') format('woff');
+  src: url('../fonts/Platform-Bold.woff2') format('woff2'),
+    url('../fonts/Platform-Bold.woff') format('woff');
 }
 
 @font-face {
@@ -26,6 +27,6 @@
   font-family: 'Platform';
   font-style: normal;
   font-weight: normal;
-  src: url('../../fonts/Platform-Regular.woff2') format('woff2'),
-    url('../../fonts/Platform-Regular.woff') format('woff');
+  src: url('../fonts/Platform-Regular.woff2') format('woff2'),
+    url('../fonts/Platform-Regular.woff') format('woff');
 }
