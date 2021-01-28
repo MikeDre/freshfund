@@ -4,10 +4,10 @@ import { Helmet } from 'react-helmet';
 import Layout from '../components/Layouts/Layout';
 import TextBlock from '../components/TextBlock/TextBlock';
 import VideoHero from '../components/Video/VideoHero';
+import ArrowCurl from '../components/Arrows/ArrowCurl';
 
 import '../sass/main.scss';
 
-import CurlArrow from '../images/curl-arrow.svg';
 import FreshFundOGImage from '../images/freshfund-ogimage.jpg';
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className="uk-container uk-margin-large-top uk-margin-large-bottom">
           <div className="uk-grid" data-uk-grid>
-            <div className="uk-width-2-3@m">
+            <div className="uk-width-2-3@m uk-margin-large-top">
               <TextBlock
                 subheading="Overview"
                 heading="Fresh Fund"
@@ -53,12 +53,9 @@ export default function Home() {
               />
             </div>
             <div className="uk-width-1-3@m uk-text-center">
-              <div>
-                <img src={CurlArrow} alt="Curly arrow pointing to video" />
-              </div>
-              <div className="uk-margin-top">
-                <strong>Take a closer look</strong>
-              </div>
+              <ArrowCurl
+                caption="Take a closer look"
+              />
             </div>
           </div>
         </div>
