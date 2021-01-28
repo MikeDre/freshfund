@@ -14,9 +14,9 @@ const header = () => (
         <div className="uk-flex uk-flex-top@m uk-flex-middle@s">
           <SocialIcons
             darkMode
-            instagram="https://instagram.com/freshfund"
-            twitter="https://twitter.com/freshfund"
-            linkedin="https://linkedin.com/freshfund"
+            instagram="https://instagram.com/couriermedia"
+            twitter="https://twitter.com/couriermedia"
+            linkedin="https://www.linkedin.com/company/couriermedia/"
           />
         </div>
         <div>
