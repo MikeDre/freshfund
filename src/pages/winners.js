@@ -91,7 +91,7 @@ export default function OurWinners() {
               <TextBlock
                 subheading="Fresh Fund"
                 heading="Our winners"
-                content="<p>From a mobile grave-cleaning service to an intelligent skincare brand for POC, our winners have a wide variety of businesses and inspirations for how they came to be. Over the past month, we’ve been working with filmmaker Naomi Joda and the seven winners to document who they are, what their business is and find out what drives them.</p>"
+                content="<p>From a mobile grave-cleaning service to an intelligent skincare brand for POC, our winners have a wide variety of businesses and inspirations for how they came to be. Over the past month, we’ve been working with filmmaker <a class='u-color-black u-medium' href='https://www.joda.studio/' target='_blank' rel='noopener noreferrer'>Naomi Joda</a> and the seven winners to document who they are, what their business is and find out what drives them.</p>"
               />
             </div>
           </div>

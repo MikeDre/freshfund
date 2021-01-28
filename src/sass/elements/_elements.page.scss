@@ -46,3 +46,13 @@ h2 {
 p {
   font-weight: 400;
 }
+
+a {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    color: color('tertiary');
+    text-decoration: none;
+  }
+}
