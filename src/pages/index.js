@@ -8,28 +8,27 @@ import VideoHero from '../components/Video/VideoHero';
 import '../sass/main.scss';
 
 import CurlArrow from '../images/curl-arrow.svg';
+import FreshFundOGImage from '../images/freshfund-ogimage.jpg';
 
 export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Fresh Fund</title>
-        <meta name="description" content="Site description here..." />
-        <meta name="image" content="" />
+        <title>Fresh Fund | Supporting young Black founders</title>
+        <meta name="description" content="The Courier Fresh Fund is a $50,000 fund of cash grants for young black founders in the UK and US who have great ideas to start or grow a business." />
+        <meta name="image" content={FreshFundOGImage} />
 
         {/* OpenGraph tags */}
         <meta property="og:url" content="" />
-        <meta property="og:title" content="Fresh Fund" />
-        <meta property="og:description" content="Site description here..." />
-        <meta property="og:image" content="" />
-        <meta property="fb:app_id" content="fb=app=id" />
+        <meta property="og:title" content="Fresh Fund | Supporting young Black founders" />
+        <meta property="og:description" content="The Courier Fresh Fund is a $50,000 fund of cash grants for young black founders in the UK and US who have great ideas to start or grow a business." />
+        <meta property="og:image" content={FreshFundOGImage} />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="" />
-        <meta name="twitter:title" content="Fresh Fund" />
-        <meta name="twitter:description" content="Site description here..." />
-        <meta name="twitter:image" content="" />
+        <meta name="twitter:title" content="Fresh Fund | Supporting young Black founders" />
+        <meta name="twitter:description" content="The Courier Fresh Fund is a $50,000 fund of cash grants for young black founders in the UK and US who have great ideas to start or grow a business." />
+        <meta name="twitter:image" content={FreshFundOGImage} />
         <script src="https://fast.wistia.net/assets/external/E-v1.js" async />
       </Helmet>
       <Layout>
