@@ -6,9 +6,13 @@
 }
 
 .social-icons--dark {
-  fill: #1d1d1b;
+  .social-icons__base-color {
+    fill: #1d1d1b;
+  }
 }
 
 .social-icons--light {
-  fill: #ffffff;
+  .social-icons__base-color {
+    fill: #ffffff;
+  }
 }
