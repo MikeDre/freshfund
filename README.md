@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#r">
-    <img alt="Fresh Fund" src="https://raw.githubusercontent.com/MikeDre/freshfund/main/src/images/freshfund-logo.svg?token=AAQUZMTNLIGN2RDI7G7STEDAB3U2E" width="200" />
+    <img src="https://i.imgur.com/zKKuJUV.png" alt="Fresh Fund Logo" width="200">
   </a>
 </p>
 <h1 align="center">
