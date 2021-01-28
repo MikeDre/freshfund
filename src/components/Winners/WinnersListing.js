@@ -27,7 +27,6 @@ class WinnersListing extends React.Component {
         <div className="winners-listing__intro uk-margin-large-bottom uk-flex uk-flex-middle uk-text-left@m uk-text-center">
           <p>
             Click on a winner below to check out their film and get to know them better.
-            and check out their individual films to get to know each of them better.
           </p>
         </div>
         {winnerItems}
