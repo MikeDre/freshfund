@@ -1,10 +1,16 @@
 // WinnersListing Component Styling
+@import '../../sass/settings-tools.scss';
 
 .winners-listing__intro {
   font-size: 30px;
 
   p {
     max-width: 470px;
+
+    @include mq($until: device) {
+      font-size: 20px;
+      text-align: center;
+    }
   }
 }
 
@@ -21,6 +27,14 @@
   transform: scale(1);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+
+  @include mq($until: desk) {
+    max-width: 260px;
+  }
+
+  @include mq($until: palm) {
+    max-width: 300px;
+  }
 }
 
 a.winners-listing__link {
@@ -30,5 +44,13 @@ a.winners-listing__link {
     .winners-listing__illustration {
       transform: scale(1.05);
     }
+  }
+}
+
+.winner__image {
+  @include mq($until: desk) {
+    margin-bottom: 50px;
+    margin-top: -80px;
+    max-width: 260px;
   }
 }

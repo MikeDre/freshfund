@@ -11,7 +11,7 @@ const header = () => (
   <div className="uk-margin-medium-top uk-margin-large-bottom">
     <div className="uk-container">
       <div className="uk-grid uk-grid-small uk-child-width-1-3" data-uk-grid>
-        <div>
+        <div className="uk-flex uk-flex-top@m uk-flex-middle@s">
           <SocialIcons
             darkMode
             instagram="https://instagram.com/freshfund"
@@ -22,7 +22,7 @@ const header = () => (
         <div>
           <Logo />
         </div>
-        <div>
+        <div className="uk-flex uk-flex-right uk-flex-top@m uk-flex-middle@s">
           <Navigation
             navLinks={navLinks}
           />

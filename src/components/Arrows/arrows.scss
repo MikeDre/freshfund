@@ -1,7 +1,12 @@
 // Arrow Components Styling
+@import '../../sass/settings-tools.scss';
 
 .arrow-curl {
   transform: translate(0, -100px);
+
+  @include mq($until: largeDesk) {
+    transform: translate(0, 0);
+  }
 }
 
 .arrow-curl__caption {

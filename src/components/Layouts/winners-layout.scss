@@ -1,4 +1,5 @@
 // Winners Layout Component Styling
+@import '../../sass/settings-tools.scss';
 
 .winners-layout {
   background-color: #fff;
@@ -15,6 +16,11 @@
     transform: translate(-330px, 0) rotate(10deg);
     width: 3000px;
     z-index: -10;
+
+    @include mq($until: device) {
+      margin-top: 230px;
+      transform: translate(-330px, -230px) rotate(10deg);
+    }
   }
 
   &:after {
@@ -27,5 +33,9 @@
     transform: translate(-230px, -230px) rotate(-10deg);
     width: calc(100vw + 500px);
     z-index: -5;
+
+    @include mq($until: device) {
+      transform: translate(-230px, -150px) rotate(-10deg);
+    }
   }
 }

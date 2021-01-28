@@ -1,8 +1,10 @@
+@import '../../sass/settings-tools.scss';
+
 .video-hero {
   position: relative;
 
   &:after {
-    background-color: #04c1ac;
+    background-color: color('secondary');
     content: '';
     height: 700px;
     left: 0;
@@ -11,11 +13,41 @@
     transform: translate(-1500px, -70px) rotate(-10deg);
     width: 5000px;
     z-index: -10;
+
+    @include mq($until: largeDesk) {
+      height: 550px;
+    }
+
+    @include mq($until: desk) {
+      height: 450px;
+    }
+
+    @include mq($until: smallDesk) {
+      height: 350px;
+    }
+
+    @include mq($until: device) {
+      height: 320px;
+      transform: translate(-1500px, -100px) rotate(-10deg);
+    }
+
+    @include mq($until: palm) {
+      height: 180px;
+      transform: translate(-1500px, -125px) rotate(-10deg);
+    }
+  }
+
+  @include mq($until: palm) {
+    margin-bottom: -40px;
   }
 }
 
 .video-winner {
   margin-bottom: -350px;
-  margin-top: 50px;
+  margin-top: 20px;
   position: relative;
+
+  @include mq($until: palm) {
+    margin-top: 0;
+  }
 }

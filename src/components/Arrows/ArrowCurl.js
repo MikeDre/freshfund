@@ -5,7 +5,7 @@ import './arrows.scss';
 import CurlArrow from '../../images/curl-arrow.svg';
 
 const ArrowCurl = (props) => (
-  <div className="arrow-curl">
+  <div className="arrow-curl uk-visible@m">
     <div>
       <img src={CurlArrow} alt="Curly arrow pointing to video" />
     </div>

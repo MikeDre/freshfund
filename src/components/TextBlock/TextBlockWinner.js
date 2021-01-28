@@ -38,7 +38,7 @@ class TextBlockWinner extends React.Component {
           />
         ) : ''}
         <div className="text-block-winner__info">
-          <div className="uk-grid uk-child-width-1-3 uk-margin-top" uk-grid>
+          <div className="uk-grid uk-grid-small uk-child-width-1-3 uk-margin-top" uk-grid>
             <div>
               <div className="u-color-tertiary">Sector</div>
               <div className="text-block-winner__info-content u-bold">{this.props.sector}</div>

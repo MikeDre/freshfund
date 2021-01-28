@@ -98,7 +98,7 @@ export default function OurWinners() {
         </div>
         <WinnersLayout>
           <div className="uk-container">
-            <div className="uk-grid uk-child-width-1-2@m" data-uk-grid>
+            <div className="uk-grid uk-child-width-1-2@s" data-uk-grid>
               <WinnersListing
                 winners={ourWinners}
               />

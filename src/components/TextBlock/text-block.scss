@@ -1,15 +1,40 @@
 // TextBlock Component Styling
+@import '../../sass/settings-tools.scss';
 
 .text-block__heading {
   font-size: 88px;
+
+  @include mq($until: smallDesk) {
+    font-size: 58px;
+  }
+
+  @include mq($until: palm) {
+    font-size: 40px;
+  }
 }
 
 .text-block__subheading {
   font-size: 28px;
+
+  @include mq($until: smallDesk) {
+    font-size: 24px;
+  }
+
+  @include mq($until: palm) {
+    font-size: 20px;
+  }
 }
 
 .text-block__content {
   font-size: 28px;
+
+  @include mq($until: smallDesk) {
+    font-size: 22px;
+  }
+
+  @include mq($until: palm) {
+    font-size: 20px;
+  }
 }
 
 .text-block-winner__info {
@@ -18,6 +43,10 @@
 
 .text-block-winner__info-content {
   font-size: 24px;
+
+  @include mq($until: palm) {
+    font-size: 16px;
+  }
 }
 
 .text-block-winner__website {

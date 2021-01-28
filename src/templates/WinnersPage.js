@@ -88,8 +88,8 @@ const WinnersPage = ({ data }) => {
               <div className="uk-width-3-5@m">
                 <div className="uk-margin-large-top uk-margin-large-bottom">
                   <div className="uk-hidden@m">
-                    <div className="uk-margin-large-top">
-                      <img src={currentWinnerImage} alt={`Illustration of ${winner.name}`} />
+                    <div className="uk-margin-large-top uk-text-center">
+                      <img className="winner__image" src={currentWinnerImage} alt={`Illustration of ${winner.name}`} />
                     </div>
                   </div>
                   <TextBlockWinner
