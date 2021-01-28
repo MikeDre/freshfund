@@ -26,7 +26,7 @@ class TextBlockWinner extends React.Component {
         <h2 className="text-block__subheading u-color-tertiary">{this.props.subheading}</h2>
         <h1 className="text-block__heading">{this.props.heading}</h1>
         <div className="text-block-winner__website uk-margin-medium-bottom">
-          <span>{this.props.website}</span>
+          <span><a className="u-color-black" href={`https://${this.props.website}`} target="_blank" rel="noopener noreferrer">{this.props.website}</a></span>
         </div>
 
         <div className="text-block__content" dangerouslySetInnerHTML={createMarkup(this.props.content)} />
