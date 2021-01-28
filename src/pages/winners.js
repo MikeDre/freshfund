@@ -45,7 +45,7 @@ const ourWinners = [
   },
   {
     name: 'Dr Hani Hassan',
-    company: 'Ohm',
+    company: 'Hue by Dr Hani',
     image: HaniIllustration,
     slug: '/winners/dr-hani-hassan',
   },

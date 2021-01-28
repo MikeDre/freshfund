@@ -6,6 +6,10 @@
   margin-top: 300px;
   position: relative;
 
+  @include mq($until: device) {
+    margin-top: 250px;
+  }
+
   &:before {
     background-color: #04c1ac;
     content: '';
