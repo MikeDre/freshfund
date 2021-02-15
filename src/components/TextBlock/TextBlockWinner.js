@@ -22,9 +22,13 @@ class TextBlockWinner extends React.Component {
   /* eslint react/no-danger: 0 */
   render() {
     return (
-      <div>
-        <h2 className="text-block__subheading u-color-tertiary">{this.props.subheading}</h2>
-        <h1 className="text-block__heading">{this.props.heading}</h1>
+      <div data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 700">
+        <div>
+          <h2 className="text-block__subheading u-color-tertiary">{this.props.subheading}</h2>
+        </div>
+        <div>
+          <h1 className="text-block__heading">{this.props.heading}</h1>
+        </div>
         <div className="text-block-winner__website uk-margin-medium-bottom">
           <span><a className="u-color-black" href={`https://${this.props.website}`} target="_blank" rel="noopener noreferrer">{this.props.website}</a></span>
         </div>
