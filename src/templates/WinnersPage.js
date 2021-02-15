@@ -103,7 +103,7 @@ const WinnersPage = ({ data }) => {
                   />
                 </div>
               </div>
-              <div className="uk-width-2-5@m uk-text-center uk-visible@m">
+              <div className="uk-width-2-5@m uk-text-center uk-visible@m" data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
                 <div className="uk-margin-large-top">
                   <img src={currentWinnerImage} alt={`Illustration of ${winner.name}`} />
                 </div>

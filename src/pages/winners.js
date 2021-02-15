@@ -98,7 +98,7 @@ export default function OurWinners() {
         </div>
         <WinnersLayout>
           <div className="uk-container">
-            <div className="uk-grid uk-child-width-1-2@s" data-uk-grid>
+            <div className="uk-grid uk-child-width-1-2@s" data-uk-grid data-uk-scrollspy="cls: uk-animation-fade; target: .winners-listing__item; delay: 300; repeat: false">
               <WinnersListing
                 winners={ourWinners}
               />
