@@ -36,7 +36,7 @@ export default function Home() {
           <div className="uk-container">
             <div className="uk-margin-large-bottom">
               <VideoHero
-                wistiaID="mncpoovoet"
+                wistiaID="iyj7ysbh3u"
               />
             </div>
           </div>
